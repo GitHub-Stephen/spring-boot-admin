@@ -1,0 +1,11 @@
+server:
+  port: 8090
+
+spring:
+  config:
+    activate:
+      on-profile: secure
+  security:
+    user:
+      name: root
+      password: 123456
