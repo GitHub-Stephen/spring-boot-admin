@@ -48,7 +48,7 @@ spring:
         username: root
         password: 123456
         # 监控服务端的访问地址，用户客户端注册
-        url: http://localhost:8090
+        url: http://localhost:8999
         instance:
           # 客户端访问地址，方便服务端回调
           service-base-url: http://localhost:8080
