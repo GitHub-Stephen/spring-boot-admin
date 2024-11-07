@@ -4,14 +4,23 @@ springboot2 out of the box
 
 # 如何使用
 
-## 服务端启动
+## 服务端(源码）启动
 环境要求  jdk : 1.8
 
 - 运行程序
 直接运行`AcAppMonitorApplication`程序即可
 
-- 查看运行界面，访问 http://localhost:8090
+- 查看运行界面，访问 http://localhost:8999
 ![img.png](img.png)
+
+输入 root/123456 即可登录
+
+## 服务端(Docker)启动
+
+```bash
+# 拉取并启动
+docker run -it -d -p 8999:8999 --name ac-monitor registry.cn-hangzhou.aliyuncs.com/stephen_docker/spring-boot-admin:1.0
+```
 
 
 ## 客户端注册

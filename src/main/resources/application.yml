@@ -1,7 +1,9 @@
 server:
-  port: 8090
+  port: 8999
 
 spring:
+  application:
+    name: ac-monitor
   config:
     activate:
       on-profile: secure
